@@ -1,0 +1,142 @@
+/* ─── Design System Tokens ─── */
+:root {
+  /* Colors – Primary */
+  --color-primary-base: #354d97;
+  --color-primary-hover: #32498f;
+  --color-primary-pressed: #2f4486;
+  --color-primary-disabled: #ebebeb;
+  --color-primary-light: #d6dcf0;
+  --color-primary-light-hover: #c0c9e8;
+  --color-primary-dark: #1f3070;
+
+  /* Colors – Secondary */
+  --color-secondary-base: #5677bd;
+  --color-secondary-hover: #4766b0;
+
+  /* Colors – Surface */
+  --color-surface-default: #ffffff;
+  --color-surface-hover: #cccccc;
+  --color-surface-background: #ffffff;
+  --color-surface-background-subtle: #f9f9f9;
+  --color-surface-disabled: #ebebeb;
+
+  /* Colors – Text */
+  --color-text-default: #333333;
+  --color-text-subtle: #777777;
+  --color-text-disabled: #b3b3b3;
+  --color-text-inverse: #ffffff;
+  --color-text-link: #0066cc;
+  --color-text-dominant: #354d97;
+
+  /* Colors – Border */
+  --color-border-default: #cccccc;
+  --color-border-subtle: #e5e5e5;
+  --color-border-strong: #999999;
+
+  /* Colors – Interaction */
+  --color-info: #0ea5e9;
+  --color-info-light: #e0f2fe;
+  --color-info-dark: #075985;
+  --color-warning: #f59e0b;
+  --color-warning-light: #fef3c7;
+  --color-warning-dark: #92400e;
+  --color-error: #ef4444;
+  --color-error-light: #fee2e2;
+  --color-error-dark: #991b1b;
+  --color-success: #22c55e;
+  --color-success-light: #dcfce7;
+  --color-success-dark: #166534;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+
+  /* Radius */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Stroke */
+  --stroke-thin: 1px;
+  --stroke-normal: 2px;
+  --stroke-thick: 3px;
+
+  /* Size */
+  --size-xs: 24px;
+  --size-sm: 32px;
+  --size-md: 40px;
+  --size-lg: 48px;
+  --size-xl: 56px;
+  --size-icon: 16px;
+  --size-icon-lg: 24px;
+}
+
+/* ─── Reset ─── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: var(--color-text-default);
+  background: var(--color-surface-background-subtle);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Typography Scale ─── */
+.text-h4   { font-size: 24px; font-weight: 700; line-height: 1.33; }
+.text-h5   { font-size: 20px; font-weight: 700; line-height: 1.4; }
+.text-sub1 { font-size: 18px; font-weight: 600; line-height: 1.33; }
+.text-sub2 { font-size: 16px; font-weight: 600; line-height: 1.5; }
+.text-body-lg-bold { font-size: 16px; font-weight: 700; line-height: 1.5; }
+.text-body-lg      { font-size: 16px; font-weight: 400; line-height: 1.5; }
+.text-body-sm-bold { font-size: 14px; font-weight: 700; line-height: 1.5; }
+.text-body-sm      { font-size: 14px; font-weight: 400; line-height: 1.5; }
+.text-assist-bold  { font-size: 12px; font-weight: 700; line-height: 1.67; }
+.text-assist       { font-size: 12px; font-weight: 400; line-height: 1.67; }
+.text-btn-lg       { font-size: 18px; font-weight: 700; line-height: 1.33; }
+.text-btn          { font-size: 16px; font-weight: 700; line-height: 1.5; }
+.text-btn-sm       { font-size: 14px; font-weight: 700; line-height: 1.43; }
+
+/* ─── DS Link component — Primary variant ─── */
+a.ds-link-primary {
+  font-weight: 700;
+  color: var(--color-primary-base);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  border-radius: 4px;
+  outline: none;
+  transition: color 0.15s;
+}
+a.ds-link-primary:hover  { color: var(--color-primary-hover); }
+a.ds-link-primary:active { color: var(--color-primary-pressed); }
+a.ds-link-primary:visited { color: var(--color-primary-dark); }
+a.ds-link-primary:focus-visible {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #54659c;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border-default); border-radius: var(--radius-full); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-border-strong); }
+
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+input  { font-family: inherit; }
