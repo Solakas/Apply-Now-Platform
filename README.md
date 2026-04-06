@@ -1,8 +1,5 @@
 # **🚀 Apply Now: Recruitment Platform UX/UI Case Study**
 
-**A Product Design Assignment for Kaizen Gaming**
-
-*(Tip: Replace this link with an actual screenshot or banner of your final Figma designs)*
 
 ## **📖 Overview**
 
@@ -62,22 +59,3 @@ Designed to make candidate evaluation truly effortless.
 * **Unified Evaluation Workspace:** Tabbed interface separating the Scorecard, Team Notes (with @tagging), and History.  
 * **Sticky Dispositions:** \[Advance\] and \[Reject\] buttons remain pinned to the top right, ensuring recruiters can make decisions instantly without scrolling back to the top of a long resume.  
 * **The Talent Vault integration:** Clear badging and timeline views if a candidate has applied to the company previously.
-
-## **🛠️ Tools Used**
-
-* **Figma / Sketch:** High-fidelity UI Design & Prototyping  
-* **Markdown / Notion:** UX Documentation & Research Synthesis  
-* **Mermaid.js:** User Flow Diagramming
-
-## **🔗 Project Links**
-
-* **\[View the High-Fidelity Figma Prototype\]** *(\<- Insert your Figma link here)*  
-* **\[View the Figma Design File\]** *(\<- Insert your Figma link here)*  
-* [UX Research & UI Briefs (Docs)](https://www.google.com/search?q=./docs/) *(\<- Link to your internal repo docs if applicable)*
-
-### **Contact**
-
-Designed by **\[Your Name\]** \* 📧 \[Your Email\]
-
-* 💼 \[Your LinkedIn\]  
-* 🌐 \[Your Portfolio Website\]
