@@ -1,5 +1,5 @@
 import React from 'react';
-import logoSrc from '../logo.png';
+import logoSrc from '../assets/logo.png';
 
 const IconSearch = () => (
   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
